@@ -11,65 +11,7 @@
 <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
 <![endif]-->
 <!--[if lte IE 7]>
-<style type="text/css">
-#footer {
-display:none;
-}
-#sidestripe {
-width: 300px;
-    height: 670px;
-    background-image:url('http://www.travisberry.com/wp-content/themes/tbsite/images/sidestripe.jpg');
-    background-repeat:no-repeat;
-    background-color:#efecc3;
-    position:absolute;
-    z-index:1;
-    float:left;
-}
-#contentbox {
-    float:right;
-    width:660px;
-   position:relative;
-    z-index:33;
-    background-color:#efecc3;
-}
-#content {
-width: 650px;
-    margin: 20px 20px 10px 0px;
-    padding: 10px 5px 50px 5px;
-    float:right ;
-    border-style:solid;
-border-width:5px;
-    border-color:#54452e;
-	color:#54452e;
-    font-size:1.2em;
-    letter-spacing: -.04em;
-     line-height: 1em;
-    word-spacing:-1px;
-    position:absolute;
-    z-index:34;
-}
-h4 {
-font-size:48px;
-color:#54452e;
-font-family: "Boogie", 'Times New Roman', serif;
-}
-#navbar {
-width: 640px;
-    height:50px;
-    background-color: #54452e;
-    margin: 0px 0px 0px 12px;
-    font-size:40px;
-    color:#efecc3;
-    font-family: "Boogie", 'Times New Roman', serif;
-    padding: 0px 0px 8px 10px;
-position:relative;
-    z-index:1;
-}
-#navbar ul {
-   list-style:none;
-    margin: 0px 0px 0px 0px;
-}
-</style>
+<link rel="stylesheet" href="http://www.travisberry.com/wp-content/themes/tbsite/ie.css" type="text/css" media="screen" />
 <![endif]-->
 
 <?php wp_head(); ?>
