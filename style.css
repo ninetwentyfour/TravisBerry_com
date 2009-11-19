@@ -6,8 +6,23 @@ Version: 1.0
 Author: Travis Berry
 Author URI: http://travisberry.com
 */
+/* get fonts loaded asap */
+@font-face {
+font-family: "Boogie";
+    src: url("fonts/BOOGNN.eot"); /* IE */  
+    src: local("BoogieNights"), url("fonts/boogie.ttf");
+}
+@font-face {
+font-family: "Print";
+    src: url("fonts/PrintBold.eot"); /* IE */ 
+    src: local("PrintBold"), url("fonts/PrintBold.otf");
+}
+html.chunk{
+ font-family: "Boogie", "Print";   
+}
+/* get fonts loaded asap */
 /* reset */
-html, body, div, span, applet, object, iframe,
+body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
@@ -56,16 +71,6 @@ table {
 }
 /* reset */
 /* main */
-@font-face {
-font-family: "Boogie";
-    src: url("fonts/BOOGNN.eot"); /* IE */  
-    src: local("BoogieNights"), url("fonts/boogie.ttf");
-}
-@font-face {
-font-family: "Print";
-    src: url("fonts/PrintBold.eot"); /* IE */ 
-    src: local("PrintBold"), url("fonts/PrintBold.otf");
-}
 body {
   background-color:#efecc3;
     font-family: "Print", 'Geneva', 'Verdana', sans-serif;
