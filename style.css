@@ -350,3 +350,22 @@ label{
  font-size:.8em;   
 }
 /*comments*/
+/*selectors*/
+::-moz-selection{
+	background-color:#eca71e;
+	color:#54452e;
+}
+
+::selection {
+	background-color:#eca71e;
+	color:#54452e;
+}
+
+code::-moz-selection {
+	background: #e04f23;
+}
+
+code::selection {
+	background: #e04f23;
+}
+/*selectors*/
