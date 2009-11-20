@@ -75,6 +75,12 @@ body {
   background-color:#efecc3;
     font-family: "Print", 'Geneva', 'Verdana', sans-serif;
 }
+code{
+    display:block;
+ background-color:#54452e;
+    color:#efecc3;
+    padding:3px;
+}
 p{
  display: block;
   margin: 1em 0;   
