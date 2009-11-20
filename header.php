@@ -2,10 +2,10 @@
 <html class="chunk">
 <head profile="http://gmpg.org/xfn/11">
 <title><?php bloginfo('name'); ?> &middot; <?php bloginfo('description'); ?></title>
-<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
-<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+<link rel="alternate" type="application/rss+xml" title="Travis Berry RSS Feed" href="http://www.travisberry.com/feed/" />
+<link rel="pingback" href="http://www.travisberry.com/xmlrpc.php" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
 <!--[if lt IE 8]>
 <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
