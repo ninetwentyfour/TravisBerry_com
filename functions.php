@@ -1,4 +1,8 @@
 <?php
+remove_action('wp_head', 'rsd_link');
+remove_action('wp_head', 'wlwmanifest_link');
+remove_action('wp_head', 'index_rel_link');
+remove_action('wp_head', 'wp_generator');
 /**
  * Functions:	Optimize and style Contact Form 7 - WPCF7
  *

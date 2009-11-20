@@ -368,4 +368,13 @@ code::-moz-selection {
 code::selection {
 	background: #e04f23;
 }
+a::-moz-selection {
+	background: #087f79;
+    color:#eca71e;
+}
+
+a::selection {
+	background: #087f79;
+    color:#eca71e;
+}
 /*selectors*/
