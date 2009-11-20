@@ -10,7 +10,7 @@ Author URI: http://travisberry.com
 @font-face {
 font-family: "Boogie";
     src: url("fonts/BOOGNN.eot"); /* IE */  
-    src: local("BOOGNN__"), url("fonts/boogie.ttf");
+    src: local("BOOGNN"), url("fonts/boogie.ttf");
 }
 @font-face {
 font-family: "Print";
