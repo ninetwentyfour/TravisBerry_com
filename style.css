@@ -230,6 +230,12 @@ h2 {
     background-color:#eca71e;
     height:29px;
 }
+#search{
+    float:right;
+}
+#blogtop{
+    margin-bottom:13px;
+}
 /* main */
 /* contact form */
 div.wpcf7 {
