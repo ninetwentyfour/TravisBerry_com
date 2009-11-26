@@ -237,6 +237,10 @@ h2 {
     margin-bottom:13px;
     width:650px;
 }
+#phonenum {
+float:left;
+padding:25px 5px 0px 0px;
+}
 /* main */
 /* contact form */
 div.wpcf7 {
