@@ -21,7 +21,7 @@ onfocus="if (this.value == '<?php echo $search_text; ?>')
 			
 					<div class="entry">
 						<?php the_content('Read more...'); ?></div></div>
-<?php endwhile; ?>
+<?php endwhile; ?><br /><br />
 <div id="next"><?php next_posts_link('Older posts') ?></div><div id="previous"><?php previous_posts_link('Newer posts') ?></div>
 <?php endif; ?>
 </div>
