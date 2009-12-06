@@ -194,7 +194,7 @@ width: 300px;
     background-color:#efecc3;
 }
 #content {
-width: 650px;
+width: 640px;
     margin: 20px 20px 10px 0px;
     padding: 10px 5px 50px 5px;
     float:right ;
@@ -226,7 +226,7 @@ h2 {
    font-size:18px;
 }
 #date {
- width:405px;
+ width:373px;
     background-color:#eca71e;
     height:29px;
 }
@@ -235,7 +235,7 @@ h2 {
 }
 #blogtop{
     margin-bottom:13px;
-    width:650px;
+    width:640px;
 }
 #phonenum {
 float:left;
