@@ -37,7 +37,7 @@ border-width:5px;
 h4 {
 font-size:48px;
 color:#54452e;
-font-family: "Boogie", 'Times New Roman', serif;
+font-family: "Boogie", 'Garamond', serif;
 }
 #navbar {
 width: 640px;
@@ -46,7 +46,7 @@ width: 640px;
     margin: 0px 0px 0px 12px;
     font-size:40px;
     color:#efecc3;
-    font-family: "Boogie", 'Times New Roman', serif;
+    font-family: "Boogie", 'Garamond', serif;
     padding: 0px 0px 8px 10px;
 position:relative;
     z-index:1;

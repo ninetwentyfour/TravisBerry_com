@@ -131,12 +131,12 @@ width: 960px;
 }
 #navbar {
 width: 640px;
-    height:50px;
+    
     background-color: #54452e;
     margin: 0px 0px 0px 12px;
     font-size:40px;
     color:#efecc3;
-    font-family: "Boogie", 'Times New Roman', serif;
+    font-family: "Boogie", 'Garamond', serif;
     padding: 0px 0px 8px 10px;
 position:relative;
     z-index:1;
