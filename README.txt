@@ -7,3 +7,5 @@ Fonts subject to separate license.
 This theme is available for use for personal or commercial purposes. Please consider giving a link back to http://www.travisberry.com somewhere on your site.
 
 For questions email contact@travisberry.com 
+
+Download latest version from http://github.com/ninetwentyfour/TravisBerry_com/archives/master
