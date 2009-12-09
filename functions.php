@@ -11,12 +11,15 @@ function deregister_ct7_styles() {
 wp_deregister_style( 'contact-form-7' );
 }
 // Add the Contact Form 7 scripts on selected pages
-function deregister_cf7_js() {
-if ( !is_page('contact') ) {
-wp_deregister_script( 'contact-form-7' );
+add_action( 'wp_print_scripts', 'my_deregister_javascript', 100 );
+
+function my_deregister_javascript() {
+   if ( !is_page('contact') ) {
+	wp_deregister_script( 'contact-form-7' );
+     }
 }
-}
-add_action( 'wp_print_scripts', 'deregister_cf7_js', 100 );
+
+
 // Remove more link jump
 function remove_more_jump_link($link) { 
 $offset = strpos($link, '#more-');

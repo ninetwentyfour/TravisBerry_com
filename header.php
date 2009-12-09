@@ -41,7 +41,7 @@
   ';}?>><a href="<?php echo get_option('home'); ?>/">Home</a></li>
   <li<?php if ( is_home() || is_page('blog')|| is_single() || is_search() || is_archive())  { echo ' class="current_page_item"'; } ?>><a href="<?php bloginfo('url'); ?>/blog/">Blog</a></li>
 <li<?php if ( is_page('work') || is_page('video') || is_page('web'))  { echo ' class="current_page_item"'; } ?>><a href="<?php bloginfo('url'); ?>/work/">Work</a></li>
-<li<?php if ( is_page('contact'))  { echo ' class="current_page_item"'; } ?>><a href="<?php bloginfo('url'); ?>/contact/">Contact</a></li>
+<li<?php if ( is_page('contact') || is_page('343') || is_page('337'))  { echo ' class="current_page_item"'; } ?>><a href="<?php bloginfo('url'); ?>/contact/">Contact</a></li>
 
 
 </ul>
