@@ -10,12 +10,12 @@ Author URI: http://travisberry.com
 @font-face {
 font-family: "Boogie";
     src: url("fonts/BOOGNN.eot"); /* IE */  
-    src: local("BOOGNN"), url("fonts/boogie.ttf");
+    src: local("BOOGNN"), url("fonts/boogie.ttf") format('truetype');
 }
 @font-face {
 font-family: "Print";
     src: url("fonts/PrintBold.eot"); /* IE */ 
-    src: local("PrintBold"), url("fonts/PrintBold.otf");
+    src: local("PrintBold"), url("fonts/PrintBold.otf") format('opentype');
 }
 .chunk{
  font-family: "Boogie", "Print";   
