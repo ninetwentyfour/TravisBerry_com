@@ -241,6 +241,12 @@ h2 {
 float:left;
 padding:8px 5px 0px 0px;
 }
+#previous{
+	float:right;
+}
+#next{
+	float:left;
+}
 /* main */
 /* contact form */
 div.wpcf7 {
