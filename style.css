@@ -17,7 +17,7 @@ font-family: "Print";
     src: url("fonts/PrintBold.eot"); /* IE */ 
     src: local("PrintBold"), url("fonts/PrintBold.otf");
 }
-html.chunk{
+.chunk{
  font-family: "Boogie", "Print";   
 }
 /* get fonts loaded asap */
