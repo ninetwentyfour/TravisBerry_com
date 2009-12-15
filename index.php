@@ -4,7 +4,7 @@
 </div>
 
 <div id="contentbox">
-<div id="content"><div id="blogtop"><a href="http://www.travisberry.com/feed/">Subscribe via RSS</a> or <a href="http://feedburner.google.com/fb/a/mailverify?uri=TravisBerry&amp;loc=en_US">Subscribe via Email</a> <div id="search"><?php $search_text = " Search Blog"; ?> 
+<div id="content"><div id="blogtop"><a href="http://www.travisberry.com/feed/" target="blank">Subscribe via RSS</a> or <a href="http://feedburner.google.com/fb/a/mailverify?uri=TravisBerry&amp;loc=en_US" target="blank">Subscribe via Email</a> <div id="search"><?php $search_text = " Search Blog"; ?> 
 <form method="get" id="searchform"  
 action="<?php bloginfo('home'); ?>/"> 
 <input type="text" value="<?php echo $search_text; ?>"  
