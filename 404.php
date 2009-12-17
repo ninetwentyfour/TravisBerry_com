@@ -172,7 +172,55 @@ ob_start();
 
 if(!aa_print_html($AA_STATUS_CODE)){
     ?>
-    <?php get_header(); ?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="chunk">
+<head profile="http://gmpg.org/xfn/11">
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="http://www.travisberry.com/wp-content/themes/tbsite/style.css" type="text/css" media="screen" />
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="http://www.travisberry.com/wp-content/themes/tbsite/ie.css" type="text/css" media="screen" />
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Travis Berry RSS Feed" href="http://www.travisberry.com/feed/" />
+<link rel="pingback" href="http://www.travisberry.com/xmlrpc.php" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+</head>
+
+<body>
+<div id="main">
+  <!--[if lte IE 7]>
+  <img src="http://www.travisberry.com/wp-content/themes/tbsite/images/footerimage.jpg" alt="Travis Berry" title="Travis Berry" />
+  <![endif]-->
+<div id="navbar">
+    <!--[if lt IE 7]>
+  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
+    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>
+    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>
+      <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
+	<div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>'Friends don't let friends use IE6'</div>
+        <div style='font-size: 12px; margin-top: 10px;'>You are using an outdated browser</div>
+        <div style='font-size: 10px; margin-top: 3px; line-height: 10px;'>For a better, more secure, experience using this, and other sites, please upgrade to a modern web browser. For more information click <a href="http://browsehappy.com/"  style="color: blue" target="blank">here.</a></div>
+      </div>
+      <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>
+      <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>
+      <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>
+      <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>
+    </div>
+  </div>
+  <![endif]-->
+
+<ul><li class="current_page_item"
+><a href="http://www.travisberry.com/">Home</a></li>
+  <li><a href="http://www.travisberry.com/blog/">Blog</a></li>
+<li><a href="http://www.travisberry.com/work/">Work</a></li>
+<li><a href="http://www.travisberry.com/contact/">Contact</a></li>
+
+
+</ul>
+</div>
+
 <div id="sidestripe">
 
 </div>
@@ -210,7 +258,25 @@ onfocus="if (this.value == '<?php echo $search_text; ?>')
 	</div>
 
 </div>
-<?php get_footer(); ?>
+<div id="footer">
+	<img src="http://www.travisberry.com/wp-content/themes/tbsite/images/footerimage.jpg" width="388px" height="184px" alt="Travis Berry" title="Travis Berry" />
+		</div>
+<script type="text/javascript" src="http://m.travisberry.com/mobify/redirect.js"></script>
+<script type="text/javascript">try{_mobify("http://m.travisberry.com/");} catch(err) {};</script>
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
+<![endif]-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11593601-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
 <?php } 
 exit; exit();
 ?>
