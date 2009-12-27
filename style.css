@@ -96,6 +96,9 @@ a:hover {
 a:active {
 color:#eca71e;
 }
+p a:visited {
+	color:#eca71e;
+}
 h1 {
       font-family:"Print", 'Geneva', 'Verdana', sans-serif;
      font-size: 36px;
