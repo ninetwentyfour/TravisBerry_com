@@ -355,11 +355,11 @@ textarea:focus{
     padding:0px 5px 0px 0px;
     vertical-align:text-bottom;
 }
-.color1 {
+.odd {
 background-color: #efa791;
     padding:5px;
 }
-.color2 {
+.even {
 background-color: #f5d38e;
     padding:5px;
 } 

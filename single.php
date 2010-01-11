@@ -25,6 +25,7 @@ onfocus="if (this.value == '<?php echo $search_text; ?>')
 						<?php the_content('Read more...'); ?></div></div>
 
 	
+	
 	<?php comments_template(); ?>
 <div id="moreposts1">
 <?php
