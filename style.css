@@ -83,7 +83,7 @@ code{
 }
 p{
  display: block;
-  margin: 1em 0;   
+  margin: 10px 0;   
 }
 a {
     color:#087f79;
@@ -263,7 +263,7 @@ padding:8px 5px 0px 0px;
 div.wpcf7 {
 	margin: 0;
 float:left;
-	padding: 0;
+	padding-top: 14px;
 }
 div.wpcf7-response-output {
 	margin: 2em 0.5em 1em;
