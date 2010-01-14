@@ -162,13 +162,13 @@
     
     <?php else : ?>
     
-        <p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" />
+        <p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" class="commentinputs" />
         <label for="author">Name<?php if ($req) _e(' (required)'); ?></label></p>
         
-        <p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" />
+        <p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" class="commentinputs" />
         <label for="email">E-mail (will not be published)<?php if ($req) _e(' (required)'); ?></label></p>
         
-        <p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" />
+        <p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" class="commentinputs" />
         <label for="url">Website</label></p>
     
     <?php endif; ?>
@@ -185,7 +185,7 @@
                 <input type="submit" name="submit" id="sub" value="Submit" />
                 if you like */ 
         ?>
-        <p><input type="submit" name="submit" id="submit" value="Submit Comment"></input>
+        <p><input type="submit" name="submit" id="submit" value="Submit Comment" class="commentinputs"></input>
         <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>"></p>
     
     <?php do_action('comment_form', $post->ID); ?>

@@ -250,10 +250,19 @@ padding:8px 5px 0px 0px;
 #next{
 	float:left;
 }
+#contactmain{
+	float:right;
+	width:320px;
+}
+
+.commentinputs{
+	float:none !important;
+}
 /* main */
 /* contact form */
 div.wpcf7 {
 	margin: 0;
+float:left;
 	padding: 0;
 }
 div.wpcf7-response-output {
@@ -320,6 +329,7 @@ input {
     color: #efecc3;
     font-family: 'Print', 'Geneva', 'Verdana';
     font-size:1em;
+    float:right;
 }
 span.wpcf7-not-valid-tip {
 	left: auto;
@@ -364,7 +374,7 @@ background-color: #f5d38e;
     padding:5px;
 } 
 #commentform{
- width:600px;   
+ width:405px;   
 }
 label{
  font-size:.8em;   
