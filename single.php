@@ -27,7 +27,7 @@ onfocus="if (this.value == '<?php echo $search_text; ?>')
 	
 	
 	<?php comments_template(); ?>
-<div id="moreposts1">
+<script>utmx_section("relatedposts")</script><div id="moreposts1">
 <?php
 $categories = get_the_category($post->ID);
 if ($categories) {
@@ -59,7 +59,7 @@ $my_query = new wp_query($args);
 			 
 
 <?php endif; ?>
-<p><a href="http://www.travisberry.com/blog/">back to blog</a></p>
+<p><br /><a href="http://www.travisberry.com/blog/">back to blog</a></p>
 	</div>
 
 </div>
