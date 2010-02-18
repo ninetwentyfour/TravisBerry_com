@@ -3,7 +3,9 @@
 <head profile="http://gmpg.org/xfn/11">
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+<!--<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />-->
+<link rel="stylesheet" href="http://www.travisberry.com/wp-content/themes/tbsite/ministyle2.css" type="text/css" media="screen" />
+
 <!--[if lte IE 7]>
 <link rel="stylesheet" href="http://www.travisberry.com/wp-content/themes/tbsite/ie.css" type="text/css" media="screen" />
 <![endif]-->

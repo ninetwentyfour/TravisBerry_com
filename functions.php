@@ -4,11 +4,13 @@ remove_action('wp_head', 'rsd_link');
 remove_action('wp_head', 'wlwmanifest_link');
 remove_action('wp_head', 'index_rel_link');
 remove_action('wp_head', 'wp_generator');
-// Remove the default Contact Form 7 Stylesheet
+// Remove the default Contact Form 7 and shadow box Stylesheet
 add_action( 'wp_print_styles', 'deregister_ct7_styles', 100 );
 
 function deregister_ct7_styles() {
 wp_deregister_style( 'contact-form-7' );
+wp_deregister_style( 'shadowbox-css' );
+wp_deregister_style( 'shadowbox-extras' );
 }
 // Add the Contact Form 7 scripts on selected pages
 add_action( 'wp_print_scripts', 'my_deregister_javascript', 100 );
@@ -18,6 +20,7 @@ function my_deregister_javascript() {
 	wp_deregister_script( 'contact-form-7' );
      }
 }
+
 
 
 // Remove more link jump
