@@ -363,6 +363,9 @@ textarea:focus{
     background-color:#eca71e;
     color: #54452e;
 }
+.search404{
+	float:left !important;
+}
 /* contact form */
 /*comments*/
 #comments{

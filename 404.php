@@ -245,10 +245,10 @@ echo '</ul>';
 ?>
 <p>Or search for something else here
 <?php $search_text = "Type and hit enter"; ?> 
-<form method="get" id="searchform"  
+<form method="get" id="searchform" 
 action="<?php bloginfo('home'); ?>/"> 
 <input type="text" value="<?php echo $search_text; ?>"  
-name="s" id="s"  
+name="s" id="s"  class="search404" 
 onblur="if (this.value == '')  
 {this.value = '<?php echo $search_text; ?>';}"  
 onfocus="if (this.value == '<?php echo $search_text; ?>')  
