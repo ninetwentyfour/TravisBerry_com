@@ -371,6 +371,9 @@ textarea:focus{
 #comments{
     width:405px;
 }
+#comments li{
+	list-style-type:none !important;
+}
 .avatar{
     float:left;
     padding:0px 5px 0px 0px;
