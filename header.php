@@ -1,6 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html class="chunk">
-<head profile="http://gmpg.org/xfn/11">
+<head>
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!--<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />-->
@@ -11,7 +11,7 @@
 <![endif]-->
 <link rel="alternate" type="application/rss+xml" title="Travis Berry RSS Feed" href="http://www.travisberry.com/feed/" />
 <link rel="pingback" href="http://www.travisberry.com/xmlrpc.php" />
-<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<link rel="shortcut icon" href="http://www.travisberry.com/favicon.ico" type="image/x-icon" />
 <?php wp_head(); ?>
 </head>
 
@@ -42,7 +42,7 @@
 <ul><li<?php if ( is_page('about') || is_404() ){ echo ' class="current_page_item"
   ';}?>><a href="<?php echo get_option('home'); ?>/">Home</a></li>
   <li<?php if ( is_home() || is_page('blog')|| is_single() || is_search() || is_archive())  { echo ' class="current_page_item"'; } ?>><a href="<?php bloginfo('url'); ?>/blog/">Blog</a></li>
-<li<?php if ( is_page('work') || is_page('video') || is_page('web'))  { echo ' class="current_page_item"'; } ?>><a href="<?php bloginfo('url'); ?>/work/">Work</a></li>
+<li<?php if ( is_page('work') || is_page('video') || is_page('web') || is_page('copyright-and-the-internet') || is_page('the-trunk') || is_page('applewood-rescue-commercial') || is_page('dccs-fashion-shoot') || is_page('dazbog-coffee-commercial') || is_page('changing-us-trailer') || is_page('canon-commercial') || is_page('aic-commercial') || is_page('apple-commercial'))  { echo ' class="current_page_item"'; } ?>><a href="<?php bloginfo('url'); ?>/work/">Work</a></li>
 <li<?php if ( is_page('contact') || is_page('343') || is_page('337'))  { echo ' class="current_page_item"'; } ?>><a href="<?php bloginfo('url'); ?>/contact/">Contact</a></li>
 
 
