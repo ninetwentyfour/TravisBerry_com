@@ -2,7 +2,7 @@
 <div id="sidestripe">
 
 </div>
-
+<section><article>
 <div id="contentbox">
 <div id="content">
 <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
@@ -15,5 +15,5 @@
 <div id="next"><?php next_posts_link('Older posts') ?></div><div id="previous"><?php previous_posts_link('Newer posts') ?></div>
 <?php endif; ?>
 </div>
-</div>
+</div></article></section>
 <?php get_footer(); ?>

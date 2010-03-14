@@ -1,6 +1,6 @@
-<div id="footer">
+<footer><div id="footer">
 	<img src="http://www.travisberry.com/wp-content/themes/tbsite/images/footerimage.jpg" width="388px" height="184px" alt="Travis Berry" title="Travis Berry" />
-		</div></div><?php wp_footer(); ?>
+		</div></footer></div><?php wp_footer(); ?>
 <script type="text/javascript" src="http://m.travisberry.com/mobify/redirect.js"></script>
 <script type="text/javascript">try{_mobify("http://m.travisberry.com/");} catch(err) {};</script>
 <!--[if lt IE 8]>

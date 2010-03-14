@@ -19,7 +19,7 @@
 <div id="main">
   <!--[if lte IE 7]>
   <img src="http://www.travisberry.com/wp-content/themes/tbsite/images/footerimage.jpg" alt="Travis Berry" title="Travis Berry" />
-  <![endif]-->
+  <![endif]--><header><nav>
 <div id="navbar">
     <!--[if lt IE 7]>
   <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
@@ -47,4 +47,4 @@
 
 
 </ul>
-</div>
+</div></nav></header>
