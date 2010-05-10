@@ -1,5 +1,5 @@
 <footer><div id="footer">
-	<img src="http://www.travisberry.com/wp-content/themes/tbsite/images/footerimage.jpg" width="388px" height="184px" alt="Travis Berry" title="Travis Berry" />
+	<img src="http://www.travisberry.com/wp-content/themes/tbsite/images/footerimage.jpg" width="388" height="184" alt="Travis Berry" title="Travis Berry" />
 		</div></footer></div><?php wp_footer(); ?>
 <script type="text/javascript" src="http://m.travisberry.com/mobify/redirect.js"></script>
 <script type="text/javascript">try{_mobify("http://m.travisberry.com/");} catch(err) {};</script>
