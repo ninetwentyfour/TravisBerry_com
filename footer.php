@@ -1,9 +1,9 @@
-    <footer>
-        <img src="http://www.travisberry.com/wp-content/themes/tbsite/images/footerimage.jpg" width="388" height="184" alt="Travis Berry" title="Travis Berry" />
-        <?php wp_footer(); ?>
-    </footer>
+  <footer>
+    <!--<img src="http://www.travisberry.com/wp-content/themes/tbsite/images/footerimage.jpg" width="388" height="184" alt="Travis Berry" title="Travis Berry" />-->
+    Travis<br />Berry
+  </footer>
 </section><!--end main-->
-
+<?php wp_footer(); ?>
 <script type="text/javascript" src="http://m.travisberry.com/mobify/redirect.js"></script>
 
 <?php if ( is_page('contact'))  { echo '<script type="text/javascript" src="http://www.travisberry.com/wp-content/themes/tbsite/imageswap.js"></script>'; } ?>
